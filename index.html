@@ -146,6 +146,19 @@
 
       <h3>Customising GMRUI</h3>
       <p>We recommend modifying variables such as the colors contained in <code>_colors.scss</code> and then styling overrides in an additional stylesheet such as <code>_yourtheme.scss</code>.</p>
+      
+      <hr>
+
+      <h3>Media Queries</h3>
+      <p>We've included some media queries contained within our <code>_breakpoints.scss</code> mixin. You can modify these breakpoints to suit best suit your project.</p>
+      <h4>How to use media queries</h4>
+      <p>The below example shows how you can change the text colour of <code>.yourColumn</code> from blue to red for anything above <b>mobile</b>.</p>
+      <pre><code class="css">.yourColumn {
+  color: blue;
+  @include bp(sm) {
+    color: red;
+  }
+}</code></pre>
 
       <hr>
 
