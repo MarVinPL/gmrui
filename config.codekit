@@ -15,7 +15,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3215,
+		"initialSize": 6082,
 		"inputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
@@ -69,7 +69,7 @@
 		},
 	"\/dist\/gmr.ui.min.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/gmr.ui.min.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -81,15 +81,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/gmrui.jquery.js",
-		"outputAbbreviatedPath": "\/dist\/gmrui.jquery.min.js",
+		"outputAbbreviatedPath": "\/dist\/min\/gmrui.jquery-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/dist\/gmrui.jquery.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dist\/gmrui.jquery.min.js",
 		"outputAbbreviatedPath": "\/dist\/min\/gmrui.jquery.min-min.js",
@@ -111,7 +111,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6082,
+		"initialSize": 1365,
 		"inputAbbreviatedPath": "\/favicon.png",
 		"outputAbbreviatedPath": "\/favicon.png",
 		"outputPathIsOutsideProject": 0,
@@ -169,7 +169,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2666,
+		"initialSize": 6082,
 		"inputAbbreviatedPath": "\/img\/favicon.png",
 		"outputAbbreviatedPath": "\/img\/favicon.png",
 		"outputPathIsOutsideProject": 0,
@@ -180,7 +180,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6767,
+		"initialSize": 16105,
 		"inputAbbreviatedPath": "\/img\/logo.png",
 		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -198,7 +198,7 @@
 		},
 	"\/js\/dropdown.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/dropdown.js",
 		"outputAbbreviatedPath": "\/js\/min\/dropdown-min.js",
@@ -273,27 +273,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/README.html",
-		"outputFormat": 9,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		},
 	"\/scss\/_gmrui.scss": {
 		"createSourceMap": 0,
@@ -399,12 +378,12 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/gmr.ui.scss",
-		"outputAbbreviatedPath": "\/dist\/gmr.ui.min.css",
+		"outputAbbreviatedPath": "\/css\/gmr.ui.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/scss\/gmrui\/_alerts.scss": {
@@ -1833,14 +1812,6 @@
 	],
 "lastSavedByUser": "Matt Litherland",
 "manualImportLinks": {
-	"\/dist\/gmrui.jquery.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/dropdown.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
