@@ -98,7 +98,7 @@
       <h1>Getting Started</h1>
       <p class="lead">Getting started with gmrui is easy. Built on Sass for rapid deployment and is made for designers of all skill ranges.</p class="lead">
       <hr>
-      <h2>What is gmrui?</h2>
+      <h2>What is GMRUI?</h2>
       <p class="lead">GMRUI is a Responsive (Gamers) Framework built for rapid theme deployment for developers whom are comfortable using SASS to power their website.</p>
       <p>This framework is designed to keep your front-end HTML short, semantic and sweet. It is also compatible with all modern web browsers and we are continually improving our framework thanks to its contributors.</p>
       <p>gmrui is built by <a href="http://twitter.com/mattsince87" title="@mattsince87">Matt Litherland</a> and is maintained by <a href="https://github.com/gmrgo" title="GamerGo">GamerGo</a>.</p>
@@ -108,21 +108,53 @@
       <hr>
 
       <h2>Start Using GMRUI</h2>
-      <p>Getting started with gmrui is easy. We're currently available only on GitHub but will be including bower support shortly.</p>
+      <p>Getting started with GMRUI is easy. We're currently available only on GitHub but will be including bower support shortly.</p>
       <!-- <ul>
         <li>Clone the repo <code>https://github.com/gmrgo/gmrui.git</code></li>
         <li>Install with <a href="http://bower.io">Bower</a> <code>bower install ryzedev/gmrui</code></li>
         <li>Install with <a href="https://getcomposer.org">Composer</a>: <code>composer require ryze/devgmrui</code> - VC: <code>dev-master</code></li>
       </ul> -->
+      <hr>
+      <h3>What's Included?</h3>
+      <p>GMRUI includes susy grid framework out the box.</p>
+      <pre class="structure">gmrui/
+├── fonts/
+|   ├── ...
+├── scss/
+|   ├── gmrui/
+|   |   ├── mixins/
+|   |   ├── widgets/
+|   |   ├── ...
+|   ├── susy/
+|   |   ├── ...
+|   ├── ...
+|   ├── <b>theme.scss</b></pre>
+
+      <hr>
+
+      <h3>How to theme using <code>theme.scss</code></h3>
+      <p>To get started using the GMRUI framework, you will need to include the required dependencies in your theme.</p>
+
+      <pre><code class="css">@import 'normalize';
+@import 'susy';
+@import 'gmrui';
+@import 'yourtheme';</code></pre>
+
+      <p>It is recommended you import your external dependencies seperately for easy maintanence.</p>
       
       <hr>
 
-      <h2>Autoprefixer required for SASS</h2>
-      <p>gmrui uses <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to deal with CSS vendor prefixes. If you're compiling gmrui from its Sass source and not using our full release, you'll need to integrate Autoprefixer into your build process yourself. We use <a href="https://incident57.com/codekit/">CodeKit</a> by <a href="http://twitter.com/bdkjones">bdkjones</a>.</p>
+      <h3>Customising GMRUI</h3>
+      <p>We recommend modifying variables such as the colors contained in <code>_colors.scss</code> and then styling overrides in an additional stylesheet such as <code>_yourtheme.scss</code>.</p>
+
+      <hr>
+
+      <h2>Autoprefixer for SASS</h2>
+      <p>GMRUI uses <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to deal with CSS vendor prefixes. If you're compiling GMRUI from its Sass source and not using our full release, you'll need to integrate Autoprefixer into your build process yourself. We use <a href="https://incident57.com/codekit/">CodeKit</a> by <a href="http://twitter.com/bdkjones">bdkjones</a>.</p>
       <hr>
 
       <h2>Normalize.css</h2>
-      <p>gmrui uses <a href="http://necolas.github.io/normalize.css/">Normalize.css</a> to help make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.</p>
+      <p>GMRUI uses <a href="http://necolas.github.io/normalize.css/">Normalize.css</a> to help make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.</p>
       <hr>
 
       <h2>Curator</h2>

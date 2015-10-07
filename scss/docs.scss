@@ -38,6 +38,35 @@ pre {
   overflow: auto;
   word-wrap: normal;
   white-space: pre;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  // Structure
+  //
+  &.structure {
+    background: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.4;
+    border-radius: 5px;
+    // Highlight
+    //
+    b {
+      color: $red;
+    }
+  }
+}
+
+// Name
+//
+a.name span {
+  display: inline-block;
+  float: left;
+  width: 70px;
+  height: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url(../img/logo.png) 0 0 no-repeat;
+  background-size: cover;
 }
 
 // Nav Bar
