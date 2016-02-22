@@ -1,4 +1,3 @@
-<?php ini_set('display_errors', 1); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +23,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body id="page-<?php echo $page; ?>">
+<body id="page-">
 
 <div class="doc-hero">
   <div class="esc">
@@ -38,7 +37,7 @@
 
 <div class="section nav-wrapper">
   <div class="esc">
-    <?php include("includes/navbar.php"); ?>
+    <?php include("/includes/navbar.php"); ?>
   </div>
 </div>
 
@@ -46,7 +45,7 @@
   <div class="esc">
     <aside class="docs-aside">
       <nav class="nav-side">
-        <? include("includes/sidenav.php"); ?>
+        <? include("/includes/sidenav.php"); ?>
       </nav>
     </aside>
 
