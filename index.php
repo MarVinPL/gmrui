@@ -37,7 +37,7 @@
 
 <div class="section nav-wrapper">
   <div class="esc">
-    <?php include("/includes/navbar.php"); ?>
+    <?php include "/includes/navbar.php"; ?>
   </div>
 </div>
 
@@ -45,7 +45,7 @@
   <div class="esc">
     <aside class="docs-aside">
       <nav class="nav-side">
-        <? include("/includes/sidenav.php"); ?>
+        <?php include "/includes/sidenav.php"; ?>
       </nav>
     </aside>
 
