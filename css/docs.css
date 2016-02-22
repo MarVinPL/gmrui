@@ -506,11 +506,11 @@ kbd {
 
 img {
   display: block;
-  background: #fff;
-  padding: 4px;
-  border: 1px solid #ddd;
-  margin: 10px auto;
-  clear: both; }
+  margin: 0 auto; }
+  img.basic {
+    background: #fff;
+    padding: 4px;
+    border: 1px solid #ddd; }
   img.pull-left {
     float: left;
     margin: 10px 10px 10px 0; }
