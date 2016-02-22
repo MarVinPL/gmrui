@@ -1,5 +1,2 @@
 RewriteEngine On
-RewriteBase /
 RewriteRule ^(.*)\/$ $1.php [NC]
-
-php_flag display_errors 1
