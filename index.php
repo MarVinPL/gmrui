@@ -16,7 +16,7 @@
   
   <!-- Docs CSS -->
   <link href="/plugins/highlightjs/github-gist.css" rel="stylesheet">
-  <link href="/css/docs.css" rel="stylesheet">
+  <link href="/css/theme.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -37,7 +37,7 @@
 
 <div class="section nav-wrapper">
   <div class="esc">
-    <?php include "/includes/navbar.php"; ?>
+    <?php include "includes/navbar.php"; ?>
   </div>
 </div>
 
@@ -45,7 +45,7 @@
   <div class="esc">
     <aside class="docs-aside">
       <nav class="nav-side">
-        <?php include "/includes/sidenav.php"; ?>
+        <?php include "includes/sidenav.php"; ?>
       </nav>
     </aside>
 
