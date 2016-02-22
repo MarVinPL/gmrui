@@ -1,7 +1,13 @@
 //  GMR UI
-//  Setup RZUI
 //
 
+//  Dependencies
+//
+@import "normalize";
+@import "susy/language/susy";
+
+//  Framework
+//
 @import "gmrui/globals";
 @import "gmrui/config";
 @import "gmrui/mixins";
