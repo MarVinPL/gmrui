@@ -57,7 +57,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;!-- 16:9 aspect ratio --&gt;
+      <pre><code title="Embedded Iframes" class="html">&lt;!-- 16:9 aspect ratio --&gt;
 &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
   &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;

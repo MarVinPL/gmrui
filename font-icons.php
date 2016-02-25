@@ -51,7 +51,7 @@
       
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;li&gt;&lt;i class=&quot;fa fa-icon-name&quot;&gt;&lt;/i&gt;&lt;/li&gt;</code></pre>
+      <pre><code class="html" title="Font icon">&lt;li&gt;&lt;i class=&quot;fa fa-icon-name&quot;&gt;&lt;/i&gt;&lt;/li&gt;</code></pre>
       <hr>
       
       <p class="doc-helper"><small>Demo</small></p>

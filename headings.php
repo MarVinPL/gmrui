@@ -56,7 +56,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+      <pre><code title="Headings" class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
 &lt;h2&gt;Heading 2&lt;/h2&gt;
 &lt;h3&gt;Heading 3&lt;/h3&gt;
 &lt;h4&gt;Heading 4&lt;/h4&gt;
@@ -78,7 +78,7 @@
 
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;h1&gt;Heading 1 &lt;small&gt;Secondary Text&lt;/small&gt;&lt;/h1&gt;
+      <pre><code title="Headings with secondary text" class="html">&lt;h1&gt;Heading 1 &lt;small&gt;Secondary Text&lt;/small&gt;&lt;/h1&gt;
 &lt;h2&gt;Heading 2 &lt;small&gt;Secondary Text&lt;/small&gt;&lt;/h2&gt;
 &lt;h3&gt;Heading 3 &lt;small&gt;Secondary Text&lt;/small&gt;&lt;/h3&gt;
 &lt;h4&gt;Heading 4 &lt;small&gt;Secondary Text&lt;/small&gt;&lt;/h4&gt;
@@ -95,7 +95,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;h2 class=&quot;heading&quot;&gt;Block Header&lt;/h2&gt;</code></pre>
+      <pre><code title="Block Headers" class="html">&lt;h2 class=&quot;heading&quot;&gt;Block Header&lt;/h2&gt;</code></pre>
       <hr>
 
       <h3>GitHub</h3>

@@ -70,7 +70,22 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/7b15cfd941b0b208727b.js"></script>
+      <pre><code title="Switches" class="html">&lt;div class=&quot;switch&quot;&gt;
+  &lt;input id=&quot;switchA&quot; type=&quot;checkbox&quot;&gt;
+  &lt;label for=&quot;switchA&quot;&gt;&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;switch&quot;&gt;
+  &lt;input id=&quot;switchB&quot; type=&quot;radio&quot; name=&quot;radioG&quot;&gt;
+  &lt;label for=&quot;switchB&quot; class=&quot;lg&quot;&gt;&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;switch&quot;&gt;
+  &lt;input id=&quot;switchC&quot; type=&quot;radio&quot; name=&quot;radioG&quot;&gt;
+  &lt;label for=&quot;switchC&quot;&gt;&lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;switch&quot;&gt;
+  &lt;input id=&quot;switchD&quot; type=&quot;radio&quot; name=&quot;radioG&quot;&gt;
+  &lt;label for=&quot;switchD&quot; class=&quot;sm&quot;&gt;&lt;/label&gt;
+&lt;/div&gt;</code></pre>
 
       <hr>
 
@@ -81,8 +96,7 @@
       <h3>Helper Classes</h3>
       <p>As shown in th demo above, gmrui allows you to control the size of your switches. By default the switches are considered to be a <b>Medium</b> size. You can add the <code>sm</code> class for small or the <code>lg</code> class for large to the <code>label</code>.</p> 
       <div class="doc-example">
-        <pre class="html"><code>&lt;label for=&quot;switchD&quot; class=&quot;sm&quot;&gt;&lt;/label&gt;
-
+        <pre class="html"><code title="Swtich sizes" class="html">&lt;label for=&quot;switchD&quot; class=&quot;sm&quot;&gt;&lt;/label&gt;
 &lt;label for=&quot;switchD&quot; class=&quot;lg&quot;&gt;&lt;/label&gt;</code></pre>
       </div>
       <hr>

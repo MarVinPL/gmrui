@@ -61,7 +61,17 @@
       </nav>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/47cb36c32009f401b249.js"></script>
+      <pre><code title="Top nav" class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot; role=&quot;navigation&quot;&gt;
+  &lt;div class=&quot;nav-header&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;name&quot;&gt;GMRUI&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Lorem&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Lorem&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Lorem&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;Lorem&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
 
       <hr>
 
@@ -93,7 +103,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;</code></pre>
+      <pre><code class="html" title="Top nav classes">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;</code></pre>
 
       <p>Top position your nav items with more flexibility, you can align them either left or right by using the <code>pull-left</code> and <code>pull-right</code> helper classes available to this nav.</p>
       
@@ -121,7 +131,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-left&quot;&gt;</code></pre>
+      <pre><code class="html" title="Top nav classes">&lt;nav class=&quot;nav-bar nav-inline pull-left&quot;&gt;</code></pre>
 
       <p><i>Note.</i> The <code>nav-header</code> can still be used when pulling nav items left or right.</p>
       <hr>
@@ -154,7 +164,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;
+      <pre><code class="html" title="Top nav dropdown">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;
   &lt;div class=&quot;nav-header&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;name&quot;&gt;&lt;span&gt;gmrui&lt;/span&gt;&lt;/a&gt;
   &lt;/div&gt;

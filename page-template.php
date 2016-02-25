@@ -48,7 +48,7 @@
 
       <p>Copy the HTML below to begin working with a minimal GMRUI document.</p>
       
-      <pre><code class="html">&lt;html&gt;
+      <pre><code class="html" title="Page Template">&lt;html&gt;
 &lt;head&gt;
 
   &lt;meta charset=&quot;utf-8&quot;&gt;

@@ -65,7 +65,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;div class=&quot;alert alert-success&quot;&gt;
+      <pre><code title="Alerts" class="html">&lt;div class=&quot;alert alert-success&quot;&gt;
   &lt;p&gt;&lt;b&gt;Success!&lt;/b&gt; Your message here with a &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;alert alert-info&quot;&gt;

@@ -55,8 +55,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nobis eligendi deleniti esse culpa explicabo quam beatae libero suscipit nihil veniam incidunt odio nemo, eaque corrupti distinctio et sit harum!&lt;/p&gt;
-
+      <pre><code title="Paragraphs" class="html">&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nobis eligendi deleniti esse culpa explicabo quam beatae libero suscipit nihil veniam incidunt odio nemo, eaque corrupti distinctio et sit harum!&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nobis eligendi deleniti esse culpa explicabo quam beatae libero suscipit nihil veniam incidunt odio nemo, eaque corrupti distinctio et sit harum!&lt;/p&gt;</code></pre>
       
       <hr>
@@ -69,7 +68,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;p&gt;Lorem ipsum dolor amet, &lt;a href=&quot;#&quot;&gt;consectetur adipisicing&lt;/a&gt; elit.&lt;/p&gt;</code></pre>
+      <pre><code title="Links" class="html">&lt;p&gt;Lorem ipsum dolor amet, &lt;a href=&quot;#&quot;&gt;consectetur adipisicing&lt;/a&gt; elit.&lt;/p&gt;</code></pre>
 
       <hr>
 
@@ -81,7 +80,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;blockquote&gt;Just because you&apos;re offended, doesn&apos;t mean you&apos;re right. &lt;cite&gt;Ricky Gervais&lt;/cite&gt;&lt;/blockquote&gt;</code></pre>
+      <pre><code title="Blockquotes" class="html">&lt;blockquote&gt;Just because you&apos;re offended, doesn&apos;t mean you&apos;re right. &lt;cite&gt;Ricky Gervais&lt;/cite&gt;&lt;/blockquote&gt;</code></pre>
       <hr>
 
       <h3>Abbreviations</h3>
@@ -92,7 +91,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;abbr title=&quot;attribute&quot;&gt;attr&lt;/abbr&gt;</code></pre>
+      <pre><code title="Abbreviations" class="html">&lt;abbr title=&quot;attribute&quot;&gt;attr&lt;/abbr&gt;</code></pre>
       <hr>
 
       <h3>Code Snippets</h3>
@@ -103,7 +102,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;code&gt;some-attr=&quot;&quot;&lt;/code&gt;</code></pre>
+      <pre><code title="Code Snippets" class="html">&lt;code&gt;some-attr=&quot;&quot;&lt;/code&gt;</code></pre>
       <hr>
 
       <h3>User Input</h3>
@@ -114,7 +113,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;code&gt;some-attr=&quot;&quot;&lt;/code&gt;</code></pre>
+      <pre><code title="User Input" class="html">&lt;code&gt;some-attr=&quot;&quot;&lt;/code&gt;</code></pre>
       <hr>
 
       <h3>GitHub</h3>

@@ -54,15 +54,11 @@
         <li>Lorem ipsum dolor set</li>
         <li>Lorem ipsum dolor set</li>
         <li>Lorem ipsum dolor set</li>
-        <li>Lorem ipsum dolor set</li>
-        <li>Lorem ipsum dolor set</li>
       </ol>
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;ol&gt;
-  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
-  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
+      <pre><code title="Ordered List" class="html">&lt;ol&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
@@ -77,10 +73,15 @@
           <li>Lorem ipsum dolor set</li>
           <li>Lorem ipsum dolor set</li>
           <li>Lorem ipsum dolor set</li>
-          <li>Lorem ipsum dolor set</li>
-          <li>Lorem ipsum dolor set</li>
         </ul>
       </div>
+
+      <p class="doc-helper"><small>HTML</small></p>
+      <pre><code title="Unordered List" class="html">&lt;ul&gt;
+  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
+  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
       <hr>
 
       <h3>Inline Lists</h3>
@@ -104,9 +105,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;ul class=&quot;inline&quot;&gt;
-  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
-  &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
+      <pre><code title="Inline List" class="html">&lt;ul class=&quot;inline&quot;&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
   &lt;li&gt;Lorem ipsum dolor set&lt;/li&gt;
@@ -128,7 +127,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;dl&gt;
+      <pre><code title="Definition List" class="html">&lt;dl&gt;
   &lt;dt&gt;Lorem Ipsum Dolor&lt;/dt&gt;
   &lt;dd&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/dd&gt;
   &lt;dt&gt;Lorem Ipsum Dolor&lt;/dt&gt;

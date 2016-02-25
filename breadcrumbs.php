@@ -63,7 +63,11 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/cfea37d6d346641231c3.js"></script>
+      <pre><code title="Breadcrumb" class="html">&lt;ol class=&quot;breadcrumb&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;active&quot;&gt;Data&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
 
       <hr>
 

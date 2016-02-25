@@ -59,7 +59,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;p&gt;Default &lt;span class=&quot;label&quot;&gt;Label&lt;/span&gt;&lt;/p&gt;
+      <pre><code class="html" title="Labels">&lt;p&gt;Default &lt;span class=&quot;label&quot;&gt;Label&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Primary &lt;span class=&quot;label label-primary&quot;&gt;Label&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Success &lt;span class=&quot;label label-success&quot;&gt;Label&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Info &lt;span class=&quot;label label-info&quot;&gt;Label&lt;/span&gt;&lt;/p&gt;

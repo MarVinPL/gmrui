@@ -57,7 +57,13 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/16c70db759392104c169.js"></script>
+      <pre><code title="Buttons" class="html">&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-theme&quot;&gt;Theme&lt;/button&gt;</code></pre>
 
       <hr>
 
@@ -83,7 +89,7 @@
       </div>
       <p class="doc-helper"><small>HTML</small></p>
       <div class="doc-example">
-        <pre class="html"><code>&lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Large&lt;/button&gt;
+        <pre class="html"><code title="Button sizes" class="html">&lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Large&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-md btn-primary&quot;&gt;Medium&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Small&lt;/button&gt;
 &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-primary&quot;&gt;Extra Small&lt;/button&gt;</code></pre>
@@ -103,7 +109,7 @@
         <a href="#" class="btn btn-sq btn-linkedin"><i class="fa fa-linkedin"></i></a>
       </div>
       <p class="doc-helper"><small>HTML</small></p>
-      <pre class="html"><code>&lt;a href=&quot;#&quot; class=&quot;btn btn-social-facebook&quot;&gt;&lt;span class=&quot;icon-facebook&quot;&gt;&lt;/span&gt;&lt;/a&gt; 
+      <pre class="html"><code title="Social Buttons" class="html">&lt;a href=&quot;#&quot; class=&quot;btn btn-social-facebook&quot;&gt;&lt;span class=&quot;icon-facebook&quot;&gt;&lt;/span&gt;&lt;/a&gt; 
 &lt;a href=&quot;#&quot; class=&quot;btn btn-sq btn-twitter&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
 &lt;a href=&quot;#&quot; class=&quot;btn btn-sq btn-googleplus&quot;&gt;&lt;i class=&quot;fa fa-googleplus&quot;&gt;&lt;/i&gt;&lt;/a&gt; 
 &lt;a href=&quot;#&quot; class=&quot;btn btn-sq btn-steam&quot;&gt;&lt;i class=&quot;fa fa-steam&quot;&gt;&lt;/i&gt;&lt;/a&gt; 

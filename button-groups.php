@@ -67,7 +67,13 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/999c2482bd47ee197d35.js"></script>
+      <pre><code title="Button groups" class="html">&lt;nav class=&quot;button-group&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
 
       <hr>
 
@@ -90,7 +96,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;button-group centered&quot;&gt;</code></pre>
+      <pre><code title="Button Alignment: Center" class="html">&lt;nav class=&quot;button-group centered&quot;&gt;</code></pre>
 
       <hr>
 
@@ -108,7 +114,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;button-group pull-right&quot;&gt;</code></pre>
+      <pre><code title="Button Alignment: Right" class="html">&lt;nav class=&quot;button-group pull-right&quot;&gt;</code></pre>
 
       <hr>
 
@@ -126,7 +132,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;button-group rounded&quot;&gt;</code></pre>
+      <pre><code title="Button Alignment: Left &amp; Rounded" class="html">&lt;nav class=&quot;button-group rounded&quot;&gt;</code></pre>
 
       <hr>
 
@@ -143,7 +149,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;nav class=&quot;button-group&quot;&gt; 
+      <pre><code title="Button group theming" class="html">&lt;nav class=&quot;button-group&quot;&gt; 
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Button&lt;/a&gt;&lt;/li&gt; 
     &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Button&lt;/a&gt;&lt;/li&gt; 

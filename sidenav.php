@@ -64,7 +64,18 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/dc99bc45d47c263b7305.js"></script>
+      <pre><code title="Side navigation" class="html">&lt;nav class=&quot;nav-side&quot; role=&quot;navigation&quot;&gt;
+  &lt;ul&gt;
+    &lt;!-- Navigation --&gt;
+    &lt;li class=&quot;heading&quot;&gt;Heading&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Example Link&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;active&quot; href=&quot;#&quot;&gt;Example Link&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Example Link&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Example Link&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Example Link&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
 
       <hr>
 

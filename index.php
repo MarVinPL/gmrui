@@ -89,10 +89,12 @@
       <h3>How to theme using <code>theme.scss</code></h3>
       <p>To get started using the GMRUI framework, you will need to include the required dependencies in your theme.</p>
 
-      <pre><code class="css">@import 'normalize';
+      <pre><code class="scss" title="theme.scss">@import 'normalize';
 @import 'susy';
 @import 'gmrui';
-@import 'yourtheme';</code></pre>
+
+// Your Styles
+//</code></pre>
 
       <p>It is recommended you import your external dependencies seperately for easy maintanence.</p>
       
@@ -107,7 +109,7 @@
       <p>We've included some media queries contained within our <code>_breakpoints.scss</code> mixin. You can modify these breakpoints to suit best suit your project.</p>
       <h4>How to use media queries</h4>
       <p>The below example shows how you can change the text colour of <code>.yourColumn</code> from blue to red for anything above <b>mobile</b>.</p>
-      <pre><code class="css">.yourColumn {
+      <pre><code class="scss" title="Media Queries">.yourColumn {
   color: blue;
   @include bp(sm) {
     color: red;

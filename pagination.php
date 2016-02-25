@@ -62,7 +62,17 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/5dd53092b04d772dde65.js"></script>
+      <pre><code title="Pagination" class="html">&lt;nav role=&quot;menubar&quot; aria-label=&quot;Pagination&quot;&gt;
+  &lt;ul class=&quot;pagination&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Previous&quot;&gt;&amp;laquo;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Next&quot;&gt;&amp;raquo;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
 
       <hr>
 

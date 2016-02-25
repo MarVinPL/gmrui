@@ -206,6 +206,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/plugins\/highlightjs\/highlight.pack.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/plugins\/highlightjs\/highlight.pack.js",
+		"outputAbbreviatedPath": "\/plugins\/highlightjs\/min\/highlight.pack-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,

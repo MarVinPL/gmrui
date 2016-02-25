@@ -55,7 +55,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;img class=&quot;basic&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot; width=&quot;300&quot;&gt;</code></pre>
+      <pre><code title="Basic Image" class="html">&lt;img class=&quot;basic&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot; width=&quot;300&quot;&gt;</code></pre>
       <hr>
 
       <h3>Responsive Image</h3>
@@ -67,7 +67,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;img class=&quot;img-responsive&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
+      <pre><code title="Responsive Image" class="html">&lt;img class=&quot;img-responsive&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
       <hr>
 
       <h3>Positioning Images</h3>
@@ -79,7 +79,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;img class=&quot;pull-left&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
+      <pre><code title="Image Alignment: Left" class="html">&lt;img class=&quot;pull-left&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
       <hr>
 
       <p class="doc-helper"><small>Align Right Demo</small></p>
@@ -88,7 +88,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code class="html">&lt;img class=&quot;pull-right&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
+      <pre><code title="Image Alignment: Right" class="html">&lt;img class=&quot;pull-right&quot; src=&quot;image.jpg&quot; alt=&quot;Image&quot;&gt;</code></pre>
       <hr>
 
       <h3>GitHub</h3>

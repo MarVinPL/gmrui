@@ -76,7 +76,31 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <script src="https://gist.github.com/mattsince87/9e03d5fd1a420edfb13f.js"></script>
+      <pre><code title="Forms" class="html">&lt;form role=&quot;form&quot;&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;ipt1&quot;&gt;Email address&lt;/label&gt;
+    &lt;input type=&quot;email&quot; id=&quot;ipt1&quot; placeholder=&quot;Enter email&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;ipt2&quot;&gt;Password&lt;/label&gt;
+    &lt;input type=&quot;password&quot; id=&quot;ipt2&quot; placeholder=&quot;Password&quot;&gt;
+    &lt;div class=&quot;form-helper&quot;&gt;Help text here.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;ipt3&quot;&gt;File input&lt;/label&gt;
+    &lt;input type=&quot;file&quot; id=&quot;ipt3&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;textarea rows=&quot;6&quot; placeholder=&quot;Your comments&quot;&gt;&lt;/textarea&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row&quot;&gt;
+    &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-row checkbox&quot;&gt;
+    &lt;input id=&quot;check1&quot; type=&quot;checkbox&quot;&gt;
+    &lt;label for=&quot;check1&quot;&gt;Remember me&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
 
       <hr>
 
@@ -119,7 +143,7 @@
         </form>
       </div>
       <p class="doc-helper"><small>HTML</small></p>
-      <pre class="html"><code>&lt;form role=&quot;form&quot; class=&quot;search&quot;&gt;
+      <pre class="html"><code title="Search form">&lt;form role=&quot;form&quot; class=&quot;search&quot;&gt;
   &lt;input type=&quot;search&quot; required placeholder=&quot;Search gmrui&quot;&gt;
   &lt;button class=&quot;close-icon&quot; type=&quot;reset&quot;&gt;&lt;/button&gt;
   &lt;button class=&quot;btn btn-default&quot;&gt;Go&lt;/button&gt;
@@ -136,7 +160,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre class="html"><code>&lt;input type=&quot;text&quot; placeholder=&quot;Standard text input&quot;&gt;</code></pre>
+      <pre class="html"><code title="Default inputs">&lt;input type=&quot;text&quot; placeholder=&quot;Standard text input&quot;&gt;</code></pre>
       <p><i>Note.</i> gmrui does not require default inputs to have a class.</p>
       <hr>
 
@@ -149,7 +173,7 @@
       </div>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre class="html"><code>&lt;textarea rows=&quot;4&quot; placeholder=&quot;Standard text input&quot;&gt;&lt;/textarea&gt;</code></pre>
+      <pre class="html"><code title="Textareas">&lt;textarea rows=&quot;4&quot; placeholder=&quot;Standard text input&quot;&gt;&lt;/textarea&gt;</code></pre>
       <hr>
 
       <h3>Selects</h3>
@@ -165,7 +189,7 @@
         </select>
       </div>
       <p class="doc-helper"><small>HTML</small></p>
-      <pre class="html"><code>&lt;select&gt;
+      <pre class="html"><code title="Default select">&lt;select&gt;
   &lt;option selected&gt;Option 1&lt;/option&gt;
   &lt;option&gt;Option 2&lt;/option&gt;
   &lt;option&gt;Option 3&lt;/option&gt;
@@ -183,7 +207,7 @@
           <option>Option 5</option>
         </select>
       </div>
-      <pre class="html"><code>&lt;select multiple&gt;
+      <pre class="html"><code title="Multiple select">&lt;select multiple&gt;
   &lt;option selected&gt;Option 1&lt;/option&gt;
   &lt;option selected&gt;Option 2&lt;/option&gt;
   &lt;option&gt;Option 3&lt;/option&gt;
@@ -191,7 +215,7 @@
   &lt;option&gt;Option 5&lt;/option&gt;
 &lt;/select&gt;</code></pre>
 
-      <p>For styled selects, wrap your standard select with a div ensuring it has the class <code>select-ryze</code>.</p>
+      <p>For styled selects, wrap your standard select with a div ensuring it has the class <code>select-gmrui</code>.</p>
       <p class="doc-helper"><small>Demo</small></p>
       <div class="doc-example">
         <div class="select-ryze">
@@ -205,7 +229,7 @@
         </div>
       </div>
       <div class="doc-helper"><small>HTML</small></div>
-      <pre class="html"><code>&lt;div class=&quot;select-ryze&quot;&gt;
+      <pre class="html"><code title="Styled select">&lt;div class=&quot;select-gmrui&quot;&gt;
   &lt;select&gt;
     &lt;option selected&gt;Option 1&lt;/option&gt;
     &lt;option&gt;Option 2&lt;/option&gt;
@@ -224,7 +248,7 @@
       </div>
       <p class="doc-helper"><small>HTML</small></p>
       <div class="doc-example">
-        <pre class="html"><code>&lt;input type=&quot;text&quot; placeholder=&quot;Disabled&quot; disabled&gt;</code></pre>
+        <pre class="html"><code title="Disabled inputs">&lt;input type=&quot;text&quot; placeholder=&quot;Disabled&quot; disabled&gt;</code></pre>
       </div>
       <hr>
 
@@ -236,7 +260,7 @@
       </div>
       <p class="doc-helper"><small>HTML</small></p>
       <div class="doc-example">
-        <pre class="html"><code>&lt;input type=&quot;text&quot; value=&quot;GMR UI&quot; readonly&gt;</code></pre>
+        <pre class="html"><code title="Readonly inputs">&lt;input type=&quot;text&quot; value=&quot;GMR UI&quot; readonly&gt;</code></pre>
       </div>
       <hr>
 
