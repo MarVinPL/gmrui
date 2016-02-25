@@ -18,6 +18,21 @@ body {
   background: darken($theme,15%);
 }
 
+// Output Textarea
+//
+textarea.output {
+  position: relative;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5em;
+  background: #fff;
+  padding: 1em 1em 4.5em 1em;
+  border-radius: 2px 2px;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  height: auto;
+}
+
 // Code & HighlightJS
 //
 code.hljs {

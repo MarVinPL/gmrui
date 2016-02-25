@@ -22,6 +22,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+
 </head>
 <body>
 
@@ -41,36 +42,34 @@
 
     <div class="doc">
       <!-- Top Nav -->
-      <h1>Embedded Media</h1>
-      <p class="lead">Sites with rich content, and especially gaming websites require embedded media such as TwitchTV and YouTube.</p>
+      <h1><i class="fa fa-twitch"></i> Twitch Embed Generator</h1>
+      <p class="lead">We understand you might be a publisher using our framework and may not be comfortable with HTML yet...</p>
 
-      <a href="/embed-gen-youtube/" class="btn btn-youtube"><i class="fa fa-youtube"></i>  Embed Generator</a>
-      <a href="/embed-gen-twitch/" class="btn btn-twitch"><i class="fa fa-twitch"></i>  Embed Generator</a>
+      <a href="/embed-gen-youtube/" class="btn btn-youtube"><i class="fa fa-youtube"></i> Embed Generator</a>
 
       <hr>
 
-      <h3>Basic Usage</h3>
-      <p>Embedding media is extremely common, we have included some basic markup allowing you to embed responsively.</p>
+      <h3>Generator</h3>
+      <p>Simply copy and paste the <b>video id</b> from your Twitch video into the form below and copy &amp; paste the output for use on your website.</p>
 
-      <p class="doc-helper"><small>Demo</small></p>
-      <div class="doc-example">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/k6dsMqNIOvo?list=PLFpWrOvZY3uYiJmDw6NCLhtz46pylA6na" frameborder="0" allowfullscreen></iframe>
-        </div>
+      <!-- Start Angular App -->
+      <div id="" ng-app="">
+        <form id="">
+          <p class="doc-helper"><small>Video ID</small></p>
+          <div class="doc-example">
+            <input name="embed" ng-model="embed" ng-pattern="/^[a-zA-Z0-9-_]+$/" type="text" placeholder="Enter video id..." required />
+
+            <p class="doc-helper"><small>Output</small></p>
+            
+            <textarea class="output" readonly>&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+    &lt;iframe src=&quot;http://player.twitch.tv/?channel={{embed}}&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; height=&quot;378&quot; width=&quot;620&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</textarea>
+          </div>
+        </form>
       </div>
+      <!-- End Angular App -->
 
-      <p class="doc-helper"><small>HTML</small></p>
-      <pre><code title="Embedded Iframes" class="html">&lt;!-- 16:9 aspect ratio --&gt;
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;!-- 4:3 aspect ratio --&gt;
-&lt;div class=&quot;embed-responsive embed-responsive-4by3&quot;&gt;
-  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;...&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</code></pre>
       <hr>
-
 
       <h3>GitHub</h3>
       <p>Take a look at this components <b>SASS</b> file on <a href="https://github.com/gmrgo/gmrui/blob/gh-pages/scss/gmrui/_media.scss">GitHub</a>.</p>
@@ -97,6 +96,7 @@
   </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="/dist/gmrui.jquery.min.js"></script>
 <script src="/plugins/highlightjs/highlight.pack.js"></script>
