@@ -6,10 +6,10 @@
   <li class="divider"></li>
   <!-- Navigation -->
   <li class="heading">Navigation</li>
-  <li><a <?php if ($page=="topnav") echo " class=\"active\""; ?> href="/topnav.php">Top Nav</a></li>
-  <li><a <?php if ($page=="sidenav") echo " class=\"active\""; ?> href="/sidenav.php">Side Nav</a></li>
-  <li><a <?php if ($page=="breadcrumbs") echo " class=\"active\""; ?> href="/breadcrumbs.php">Breadcrumbs</a></li>
-  <li><a <?php if ($page=="pagination") echo " class=\"active\""; ?> href="/pagination.php">Pagination</a></li>
+  <li><a <?php if ($page=="topnav") echo " class=\"active\""; ?> href="/topnav/">Top Nav</a></li>
+  <li><a <?php if ($page=="sidenav") echo " class=\"active\""; ?> href="/sidenav/">Side Nav</a></li>
+  <li><a <?php if ($page=="breadcrumbs") echo " class=\"active\""; ?> href="/breadcrumbs/">Breadcrumbs</a></li>
+  <li><a <?php if ($page=="pagination") echo " class=\"active\""; ?> href="/pagination/">Pagination</a></li>
   <li class="divider"></li>
   <!-- Forms -->
   <li class="heading">Forms</li>

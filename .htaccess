@@ -1,0 +1,10 @@
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond /%{REQUEST_FILENAME}.php -f
+  RewriteRule ^([a-zA-Z0-9_-\s]+)/$ /$1.php
+</IfModule>
+
+
+ErrorDocument 404 /errors/404.html

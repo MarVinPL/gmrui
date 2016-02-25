@@ -1600,7 +1600,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #482f75; }
+  background: #312050; }
 
 code.hljs {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -1695,9 +1695,10 @@ footer.section {
   float: left;
   clear: both;
   width: 100%;
-  background: #212335;
+  background: #312050;
   color: #fff;
-  padding: 50px 0; }
+  padding: 50px 0;
+  font-size: 16px; }
   footer.section .col {
     width: 49.1525423729%;
     float: left;
@@ -1707,9 +1708,9 @@ footer.section {
       float: right;
       margin-right: 0; }
   footer.section h1, footer.section h2, footer.section h3, footer.section h4, footer.section p {
-    color: #525784; }
+    color: #7650b9; }
   footer.section .heading {
-    border-color: #2b2d45;
+    border-color: #26193e;
     padding-bottom: .5em;
     margin-bottom: 1em; }
   footer.section ul li {
@@ -1717,10 +1718,18 @@ footer.section {
     footer.section ul li:after {
       content: "\2013";
       margin-left: 8px;
-      margin-right: 8px; }
+      margin-right: 8px;
+      color: #7650b9; }
     footer.section ul li:last-child:after {
       content: "";
       margin: 0; }
+  footer.section a {
+    color: #9275c8;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    footer.section a:hover {
+      color: #fff;
+      text-decoration: none; }
 
 ul.font-icon-demo {
   float: left;

@@ -27,7 +27,7 @@
 
 <div class="doc-hero">
   <div class="esc">
-    <img src="img/logo.png" alt="GMRUI Logo">
+    <img src="/img/logo.png" alt="GMRUI Logo">
     <cite>The Responsive <span class="g">(</span>Gamers<span class="g">)</span> Framework </cite>
     <br>
     <iframe src="https://ghbtns.com/github-btn.html?user=gmrgo&repo=gmrui&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="137px" height="30px"></iframe>
@@ -136,7 +136,7 @@
 <footer class="section">
   <div class="esc">
     <div class="col">
-      <h4 class="heading">gmrui</h4>
+      <h4 class="heading">GMRUI</h4>
       <p>Code licensed under <a href="http://opensource.org/licenses/MIT">MIT</a>, documentation under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a></p>
     </div>
     <div class="col">

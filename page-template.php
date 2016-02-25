@@ -94,7 +94,7 @@
 <footer class="section">
   <div class="esc">
     <div class="col">
-      <h4 class="heading">gmrui</h4>
+      <h4 class="heading">GMRUI</h4>
       <p>Code licensed under <a href="http://opensource.org/licenses/MIT">MIT</a>, documentation under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a></p>
     </div>
     <div class="col">
