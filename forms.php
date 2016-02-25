@@ -16,7 +16,7 @@
   
   <!-- Docs CSS -->
   <link href="/plugins/highlightjs/github-gist.css" rel="stylesheet">
-  <link href="/css/docs.css" rel="stylesheet">
+  <link href="/css/theme.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
