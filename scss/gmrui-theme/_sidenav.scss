@@ -43,6 +43,7 @@ a.nav-ctrl {
 // Sidebar Ads
 //
 div#treehouse-widget {
+  display: none;
   position: relative !important;
   border: none !important;
   float: left;
@@ -50,6 +51,10 @@ div#treehouse-widget {
   width: auto;
   height: auto;
   margin-top: 20px;
+
+  @include bp(md){
+    display: block;
+  }
 
   a {
     display: block;
