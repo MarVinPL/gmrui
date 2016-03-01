@@ -56,7 +56,7 @@
       <h2>What is GMRUI?</h2>
       <p class="lead">GMRUI is a Responsive (Gamers) Framework built for rapid theme deployment for developers whom are comfortable using SASS to power their website.</p>
       <p>This framework is designed to keep your front-end HTML short, semantic and sweet. It is also compatible with all modern web browsers and we are continually improving our framework thanks to its contributors.</p>
-      <p>gmrui is built by <a href="http://twitter.com/mattsince87" title="@mattsince87">Matt Litherland</a> and is maintained by <a href="https://github.com/gmrgo" title="GamerGo">GamerGo</a>.</p>
+      <p>GMRUI is built by <a href="http://twitter.com/mattsince87" title="@mattsince87">Matt Litherland</a> and is maintained by <a href="https://github.com/gmrgo" title="GamerGo">GamerGo</a>.</p>
 
       <p><iframe src="https://ghbtns.com/github-btn.html?user=gmrgo&repo=gmrui&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
       <iframe src="https://ghbtns.com/github-btn.html?user=gmrgo&repo=gmrui&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="30px"></iframe></p>
@@ -135,27 +135,7 @@
   </div>
 </div>
 
-<footer class="section">
-  <div class="esc">
-    <div class="col">
-      <h4 class="heading">GMRUI</h4>
-      <p>Code licensed under <a href="http://opensource.org/licenses/MIT">MIT</a>, documentation under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a></p>
-    </div>
-    <div class="col">
-      <h4 class="heading">Contribute</h4>
-      <ul class="inline">
-        <li><a href="https://github.com/gmrgo/gmrui">Repo</a></li>
-        <li><a href="https://github.com/gmrgo/gmrui/issues">Issues</a></li>
-        <li><a href="https://github.com/gmrgo/gmrui#fork-destination-box">Fork</a></li>
-      </ul>
-      </ul>
-    </div>
-  </div>
-</footer>
+<?php include "includes/footer.php"; ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="/dist/gmrui.jquery.min.js"></script>
-<script src="/plugins/highlightjs/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

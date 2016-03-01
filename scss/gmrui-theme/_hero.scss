@@ -1,0 +1,50 @@
+// Documentation
+//
+.doc-hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 50px 15px;
+  background: darken($theme,15%) url("../img/bg.png") center center no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid darken($theme,5%);
+  text-align: center;
+  color: #fff;
+  // Responsive
+  //
+  @include bp(sm){
+    padding: 130px 15px;
+  }
+  > .esc {
+    position: relative;
+  }
+  img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+  }
+  cite {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    // Responsive
+    //
+    @include bp(sm){
+      font-size: 28px;
+    }
+  }
+  iframe {
+    margin: 15px 5px;
+  }
+  .g {
+    font-weight: bold;
+    color: $theme;
+  }
+  .twitter-follow-button {
+    position: absolute !important; // Override Inline Styles
+    top: 0;
+    left: 0;
+  }
+}
