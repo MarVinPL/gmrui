@@ -1935,6 +1935,21 @@ a.nav-ctrl {
     a.nav-ctrl {
       display: none; } }
 
+div#treehouse-widget {
+  position: relative !important;
+  border: none !important;
+  float: left;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin-top: 20px; }
+  div#treehouse-widget a {
+    display: block; }
+    div#treehouse-widget a img {
+      max-width: 100%;
+      width: auto;
+      height: auto; }
+
 .doc-hero {
   float: left;
   clear: both;

@@ -39,3 +39,25 @@ a.nav-ctrl {
   }
 
 }
+
+// Sidebar Ads
+//
+div#treehouse-widget {
+  position: relative !important;
+  border: none !important;
+  float: left;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+
+  a {
+    display: block;
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+}
