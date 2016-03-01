@@ -34,7 +34,7 @@
 <div class="section">
   <div class="esc">
     <aside class="docs-aside">
-      <nav class="nav-side" role="navigation">
+      <nav class="nav-side">
         <? include("includes/sidenav.php"); ?>
       </nav>
     </aside>
@@ -61,7 +61,7 @@
       </nav>
       
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code title="Top nav" class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot; role=&quot;navigation&quot;&gt;
+      <pre><code title="Top nav" class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;
   &lt;div class=&quot;nav-header&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;name&quot;&gt;GMRUI&lt;/a&gt;
   &lt;/div&gt;
@@ -76,7 +76,7 @@
       <hr>
 
       <h3>Accessibility</h3>
-      <p>The top nav allows for full keyboard accesibility. In order to prioritze the website navigation please remember to use <code>role="navigation"</code> on your <code>&lt;nav&gt;</code> element. Additionally, if your page uses off-canvas navigation, add the attribute <code>aria-hidden="true"</code> to one of them—otherwise, the user's device will tab through (and possibly read) both of them before reaching any content.</p>
+      <p>The top nav allows for full keyboard accesibility. If your page uses off-canvas navigation, add the attribute <code>aria-hidden="true"</code> to one of them—otherwise, the user's device will tab through (and possibly read) both of them before reaching any content.</p>
       <hr>
 
       <h3>Helper Classes</h3>
@@ -91,7 +91,7 @@
             <li><a href="#">Lorem</a></li>
             <li class="dropdown">
               <a href="#">Lorem</a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu">
                 <li><a href="#">My Account and Settings</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
@@ -117,7 +117,7 @@
             <li><a href="#">Lorem</a></li>
             <li class="dropdown">
               <a href="#">Lorem</a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu">
                 <li><a href="#">My Account and Settings</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
@@ -152,7 +152,7 @@
             <li><a href="#">Lorem</a></li>
             <li class="dropdown">
               <a href="#">Lorem</a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu">
                 <li><a href="#">My Account and Settings</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
@@ -174,7 +174,7 @@
     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
     &lt;li class=&quot;dropdown&quot;&gt;
       &lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;
-      &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+      &lt;ul class=&quot;dropdown-menu&quot;&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;My Account and Settings&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt;
         &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;

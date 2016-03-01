@@ -34,7 +34,7 @@
 <div class="section">
   <div class="esc">
     <aside class="docs-aside">
-      <nav class="nav-side" role="navigation">
+      <nav class="nav-side">
         <? include("includes/sidenav.php"); ?>
       </nav>
     </aside>
@@ -49,7 +49,7 @@
       
       <p class="doc-helper"><small>Demo</small></p>
       <div class="doc-nav">
-        <nav class="nav-side" role="navigation">
+        <nav class="nav-side">
           <ul>
             <!-- Navigation -->
             <li class="heading">Heading</li>
@@ -64,7 +64,7 @@
       </div>
 
       <p class="doc-helper"><small>HTML</small></p>
-      <pre><code title="Side navigation" class="html">&lt;nav class=&quot;nav-side&quot; role=&quot;navigation&quot;&gt;
+      <pre><code title="Side navigation" class="html">&lt;nav class=&quot;nav-side&quot;&gt;
   &lt;ul&gt;
     &lt;!-- Navigation --&gt;
     &lt;li class=&quot;heading&quot;&gt;Heading&lt;/li&gt;
@@ -80,7 +80,7 @@
       <hr>
 
       <h3>Accessibility</h3>
-      <p>The top nav allows for full keyboard accesibility. In order to prioritze the website navigation please remember to use <code>role="navigation"</code> on your <code>&lt;nav&gt;</code> element. Additionally, if your page uses off-canvas navigation, add the attribute <code>aria-hidden="true"</code> to one of them—otherwise, the user's device will tab through (and possibly read) both of them before reaching any content.</p>
+      <p>The top nav allows for full keyboard accesibility. If your page uses off-canvas navigation, add the attribute <code>aria-hidden="true"</code> to one of them—otherwise, the user's device will tab through (and possibly read) both of them before reaching any content.</p>
       <hr>
 
       <h3>GitHub</h3>
