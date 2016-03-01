@@ -1936,6 +1936,8 @@ a.nav-ctrl {
       display: none; } }
 
 div#treehouse-widget {
+  display: none !important;
+  visibility: hidden !important;
   position: relative !important;
   border: none !important;
   float: left;
@@ -1943,6 +1945,10 @@ div#treehouse-widget {
   width: auto;
   height: auto;
   margin-top: 20px; }
+  @media screen and (min-width: 970px) {
+    div#treehouse-widget {
+      display: block !important;
+      visibility: visible !important; } }
   div#treehouse-widget a {
     display: block; }
     div#treehouse-widget a img {
