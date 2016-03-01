@@ -12,7 +12,7 @@ button {
   font-weight: 700;
   font-size: .86em;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: initial;
   line-height: .86em;
   @include font-smoothing;
   border: none;
