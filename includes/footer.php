@@ -11,8 +11,8 @@
     </div>
     <div class="col">
       <h4 class="heading">Powered By</h4>
-      <a rel="external" href="#" class="gmrgo" title="GamerGo">GamerGo</a>
-      <a rel="external" href="#" class="mt" title="Media Temple">Media Temple</a>
+      <a rel="external" href="https://gmrgo.com" class="gmrgo" title="GamerGo">GamerGo</a>
+      <a rel="external" href="http://www.anrdoezrs.net/bh66kjspjr6EFEAAEF689BGB9DG68BCD9C7GC9777" class="mt" title="Media Temple">Media Temple</a>
     </div>
   </div>
 </footer>

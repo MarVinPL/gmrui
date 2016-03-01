@@ -1951,6 +1951,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/social.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58151,
+		"inputAbbreviatedPath": "\/social.png",
+		"outputAbbreviatedPath": "\/social.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/switches.php": {
 		"fileType": 8192,
 		"ignore": 0,

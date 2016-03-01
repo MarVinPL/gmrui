@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+  <meta name="author" content="@mattsince87">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,10 +11,17 @@
     $page = "index";
   ?>
   <title>GMRUI - Documentation</title>
-  <meta name="description" content="">
+  <meta name="description" content="GMRUI is a Responsive (Gamers) Framework built for rapid theme deployment for developers comfortable using SASS.">
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@gmrgohq" />
+  <meta name="twitter:title" content="GMRUI Responsive (Gamers) Framework" />
+  <meta name="twitter:image" content="http://gmrui.com/social.png" />
+
+  <meta property="og:image" content="http://gmrui.com/social.png">
   
   <!-- Docs CSS -->
   <link href="/plugins/highlightjs/github-gist.css" rel="stylesheet">
@@ -126,9 +135,12 @@
       <p>GMRUI uses <a href="http://necolas.github.io/normalize.css/">Normalize.css</a> to help make browsers render all elements more consistently and in line with modern standards. it precisely targets only the styles that need normalizing.</p>
       <hr>
 
+      <h2>Web Hosting</h2>
+      <p>GMRUI recommends using <a href="http://www.anrdoezrs.net/bh66kjspjr6EFEAAEF689BGB9DG68BCD9C7GC9777" title="Media Temple">Media Temple</a> to host your website. It's what we use! You can directly support this framework by clicking any of the Medai Temple links on this site.</p>
+      <hr>
+
       <h2>Curator</h2>
       <a href="https://twitter.com/mattsince87" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mattsince87</a><br>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       <iframe src="https://ghbtns.com/github-btn.html?user=mattsince87&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
       
       <hr>
