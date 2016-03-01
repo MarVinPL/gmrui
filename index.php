@@ -136,7 +136,7 @@
       <hr>
 
       <h2>Web Hosting</h2>
-      <p>GMRUI recommends using <a href="http://www.anrdoezrs.net/bh66kjspjr6EFEAAEF689BGB9DG68BCD9C7GC9777" title="Media Temple">Media Temple</a> to host your website. It's what we use! You can directly support this framework by clicking any of the Medai Temple links on this site.</p>
+      <p>GMRUI recommends using <b><a href="http://www.anrdoezrs.net/bh66kjspjr6EFEAAEF689BGB9DG68BCD9C7GC9777" title="Media Temple">Media Temple</a></b> to host your website. It's what we use! You can directly support this framework by clicking any of the <b>Media Temple</b> links on this site.</p>
       <hr>
 
       <h2>Curator</h2>
