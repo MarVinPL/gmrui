@@ -329,11 +329,13 @@ body {
 body {
   font-family: "Roboto", sans-serif; }
 
+a {
+  color: #4693e2; }
+
 a,
 a:link,
 a:active,
 a:focus {
-  color: #4693e2;
   text-decoration: none;
   outline: none; }
   a:hover,
@@ -341,11 +343,6 @@ a:focus {
   a:active:hover,
   a:focus:hover {
     text-decoration: underline; }
-  a:visited,
-  a:link:visited,
-  a:active:visited,
-  a:focus:visited {
-    color: #4693e2; }
 
 h1,
 h2,

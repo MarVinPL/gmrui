@@ -14,8 +14,6 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-  <!-- Docs CSS -->
-  <link href="/plugins/highlightjs/github-gist.css" rel="stylesheet">
   <link href="/css/theme.css" rel="stylesheet">
 
   <!--[if lt IE 9]>

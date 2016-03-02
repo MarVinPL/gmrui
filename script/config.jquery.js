@@ -1,7 +1,8 @@
-// GMRUI Jquery
+// GMRUI Config
 //
 
 $(document).ready(function () {
+
   // Mobile Menu
   //
   function mobileMenu() {
@@ -13,4 +14,5 @@ $(document).ready(function () {
     });
   }
   mobileMenu();
+
 });

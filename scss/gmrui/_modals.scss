@@ -6,10 +6,11 @@
   z-index: 0;
 }
 
-.modal-wrap {
-  perspective: 5000;
-  -moz-perspective:5000px;
+body.modal-open {
+  overflow: hidden;
+}
 
+.modal-wrap {
   height: 100%;
   min-height: 100vh;
   visibility: visible;
@@ -19,20 +20,10 @@
   bottom: 0;
   right: 0;
   padding: 15px;
+  overflow-y: scroll;
+  z-index: 9950;
+  background: rgba(0,0,0,0.8);
 
-  &:before {
-    content: "";
-    background: rgba(0,0,0,0.8);
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    transition: all 0.3s ease-in-out;
-    opacity: 1;
-  }
   // Body Login
   //
   .login & {
@@ -42,26 +33,52 @@
     }
   }
   // Closed
+  //
   &.closed {
     z-index: -9999;
     display: none;
-    &:before {
-      z-index: -9999;
-      display: none;
-    }
+    opacity: 0;
+    animation: modal-wrap-out 10s ease forwards;
+    // Modal
     .modal {
       display: none;
+      opacity: 0;
     }
   }
+  // Open
+  //
+  &.open {
+    animation: modal-wrap-in .25s ease forwards;
+    // Modal
+    //
+    .modal {
+      opacity: 0; // Reset Opacity
+      animation: modal-in .25s ease forwards .1s;
+    }
+  }
+}
+
+@keyframes modal-wrap-in {
+  0%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+@keyframes modal-wrap-out {
+  0%   { opacity: 1;}
+  100% { opacity: 0;}
+}
+
+@keyframes modal-in {
+  0%   { opacity: 0; transform: translate3d(0,-50px,0)}
+  100% { opacity: 1; transform: translate3d(0,0,0)}
 }
 
 // Modal
 //
 .modal {
-  z-index: 9999;
+  z-index: 9950;
   visibility: visible;
   transition: all 0.3s ease-in-out;
-  opacity: 1;
   position: relative;
   top: 0;
   right: 0;

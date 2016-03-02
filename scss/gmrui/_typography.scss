@@ -16,21 +16,20 @@ body {
 
 // Links
 //
+a {
+  color: $blue;
+}
+
 a,
 a:link,
 a:active,
 a:focus {
-  color: $blue;
   text-decoration: none;
   outline: none;
   // Hover
   //
   &:hover {
     text-decoration: underline;
-  }
-  // Visited
-  &:visited {
-    color: $blue;
   }
 }
 

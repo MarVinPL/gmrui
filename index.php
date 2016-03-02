@@ -20,11 +20,8 @@
   <meta name="twitter:site" content="@gmrgohq" />
   <meta name="twitter:title" content="GMRUI Responsive (Gamers) Framework" />
   <meta name="twitter:image" content="http://gmrui.com/social.png" />
-
   <meta property="og:image" content="http://gmrui.com/social.png">
-  
-  <!-- Docs CSS -->
-  <link href="/plugins/highlightjs/github-gist.css" rel="stylesheet">
+
   <link href="/css/theme.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
