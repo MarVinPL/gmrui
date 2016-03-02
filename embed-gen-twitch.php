@@ -79,6 +79,7 @@
 </div>
 
 <?php include "includes/footer.php"; ?>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 
 </body>
 </html>
